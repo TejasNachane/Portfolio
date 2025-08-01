@@ -1,29 +1,33 @@
 # Portfolio Website
 
-A modern and responsive portfolio website built with React.
+A modern and responsive portfolio website built with React and Vite.
 
 ## Features
 
+- **Fast Development**: Built with Vite for lightning-fast HMR (Hot Module Replacement)
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
 - **Modern UI**: Clean and professional design with smooth animations
 - **Component-Based**: Built with reusable React components
 - **Easy to Customize**: Simple structure makes it easy to modify content
-- **Smooth Navigation**: Sticky navigation with smooth scrolling to sections
+- **Smooth Navigation**: Navigation with smooth scrolling to sections
+- **Dark Mode**: Toggle between light and dark themes
 
 ## Sections
 
 1. **Header**: Eye-catching hero section with name and title
 2. **About**: Personal introduction and background
-3. **Skills**: Technical skills and expertise areas
-4. **Projects**: Showcase of featured projects
-5. **Contact**: Contact information and social links
-6. **Footer**: Simple footer with copyright
+3. **Skills**: Technical skills and expertise areas organized by category
+4. **Experience**: Professional experience and internships
+5. **Education**: Academic background and qualifications
+6. **Projects**: Showcase of featured projects with links
+7. **Contact**: Contact information and social links
+8. **Footer**: Simple footer with copyright
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (version 14 or higher)
+- Node.js (version 16 or higher)
 - npm or yarn
 
 ### Installation
@@ -40,10 +44,22 @@ A modern and responsive portfolio website built with React.
 
 3. Start the development server:
    ```
-   npm start
+   npm run dev
    ```
 
-4. Open your browser and visit `http://localhost:3000`
+4. Open your browser and visit `http://localhost:3000` (or the port shown in terminal)
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
 
 ## Customization
 

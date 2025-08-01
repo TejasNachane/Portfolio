@@ -136,20 +136,20 @@ export const portfolioData = {  // Personal Information
   ],
 
   // Certifications
-  certifications: [
-    {
-      name: "AWS Certified Developer - Associate",
-      issuer: "Amazon Web Services",
-      year: "2023",
-      link: "https://aws.amazon.com/certification/"
-    },
-    {
-      name: "React Developer Certification",
-      issuer: "Meta",
-      year: "2022",
-      link: "https://developers.facebook.com/certification/"
-    }
-  ],
+  // certifications: [
+  //   {
+  //     name: "AWS Certified Developer - Associate",
+  //     issuer: "Amazon Web Services",
+  //     year: "2023",
+  //     link: "https://aws.amazon.com/certification/"
+  //   },
+  //   {
+  //     name: "React Developer Certification",
+  //     issuer: "Meta",
+  //     year: "2022",
+  //     link: "https://developers.facebook.com/certification/"
+  //   }
+  // ],
 
   // Social Links
   social: {

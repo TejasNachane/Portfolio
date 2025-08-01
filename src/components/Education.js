@@ -24,7 +24,7 @@ const Education = () => {
           </div>
         </div>
 
-        {/* Certifications Section */}
+        {/* Certifications Section
         {settings.showCertifications && certifications.length > 0 && (
           <div className="certifications-section">
             <h3>Certifications</h3>
@@ -43,7 +43,7 @@ const Education = () => {
               ))}
             </div>
           </div>
-        )}
+        )} */}
       </div>
     </section>
   );
