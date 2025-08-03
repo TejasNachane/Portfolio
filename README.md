@@ -241,7 +241,26 @@ All content is managed through `portfolioData.js`, making it easy to:
 
 
 
-## 📧 Contact
+## � License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🚀 Deployment Notes
+
+### **GitHub Pages Configuration**
+- ✅ Base path correctly set to `/Portfolio/` in `vite.config.js`
+- ✅ Asset paths properly configured for GitHub Pages deployment
+- ✅ Images moved to `public/images/` directory for proper serving
+- ✅ Build process optimized for production deployment
+
+### **Troubleshooting**
+If the site displays nothing after deployment:
+1. Ensure `base: '/Portfolio/'` is set in `vite.config.js`
+2. Verify all asset paths use relative paths (starting with `./`)
+3. Check that `portfolioData.js` contains valid data
+4. Make sure GitHub Pages is enabled for the repository
+
+## �📧 Contact
 
 **Tejas Nachane**
 - 📧 Email: [tejasnachane010@gmail.com](mailto:tejasnachane010@gmail.com)

@@ -99,7 +99,7 @@ export const portfolioData = {  // Personal Information
     {
       title: "Indian Sign Language Detection",
       description: "A real-time sign language detection system using MediaPipe, TensorFlow, and Flask. It features webcam-based hand tracking, gesture recognition, live predictions, audio output, and a user-friendly web interface.",
-      image: "/Portfolio/src/data/sign.jpg",
+      image: "./images/sign.jpg",
       technologies: ["MediaPipe", "TensorFlow", "Flask", "OpenCV", "HTML/CSS", "pyttsx3"],
       // liveLink: "",
       githubLink: "https://github.com/TejasNachane/ISL-Recognized",
@@ -108,7 +108,7 @@ export const portfolioData = {  // Personal Information
     {
       title: "Student Management System",
       description: "A web-based student management system built with PHP and MySQL. It allows administrators to manage student records, track attendance, and generate academic reports through a secure dashboard.",
-      image: "/Portfolio/src/data/college.jpg",
+      image: "./images/college.jpg",
       technologies: ["PHP", "MySQL", "HTML", "CSS", "Bootstrap"],
       // liveLink: "",
       githubLink: "https://github.com/TejasNachane/student-management-system",
@@ -117,7 +117,7 @@ export const portfolioData = {  // Personal Information
     {
       title: "Expenses & Lending Tracker",
       description: "A comprehensive Flask web application for personal financial management that helps you track expenses, manage lending/borrowing, and analyze spending patterns with interactive visualizations.",
-      image: "/Portfolio/src/data/expence.png",
+      image: "./images/expence.png",
       technologies: ["Html", "Python", "Pandas", "Flask", "CSS3"],
       // liveLink: "",
       githubLink: "https://github.com/TejasNachane/Expense-Lending-Tracker",
@@ -126,7 +126,7 @@ export const portfolioData = {  // Personal Information
     {
       title: "Hospital Management System",
       description: "A comprehensive hospital management system built with Spring Boot and MySQL. Features include patient registration, appointment scheduling, doctor management, medical records, billing system, and inventory management with role-based access control.",
-      image: "/Portfolio/src/data/hospital.png",
+      image: "./images/hospital.png",
       technologies: ["Java", "Spring Boot", "MySQL", "Spring Security", "Thymeleaf", "Bootstrap"],
       // liveLink: "",
       githubLink: "https://github.com/TejasNachane/hospital-management-system",
