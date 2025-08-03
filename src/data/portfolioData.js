@@ -18,7 +18,8 @@ export const portfolioData = {  // Personal Information
     location: "Murtizapur, Akola, Maharashtra, India",
     linkedin: "https://www.linkedin.com/in/tejasnachane/",
     github: "https://github.com/TejasNachane/TejasNachane",
-    website: "https://tejasnachane.dev"
+    website: "https://tejasnachane.dev",
+    leetcode: "https://leetcode.com/u/Golumaster/"
   },
 
   // Education
@@ -63,32 +64,32 @@ export const portfolioData = {  // Personal Information
   skills: [
     {
       category: "Programming Languages",
-      technologies: ["Python", "PHP", "Java", "C++", "JavaScript"],
+      technologies: ["Python", "PHP", "Java",],
       icon: "💻"
     },
     {
       category: "Frameworks & Libraries",
-      technologies: ["React", "Django", "Flask", "Spring Boot", "Bootstrap", "Tailwind CSS"],
+      technologies: ["Flask", "Spring Boot", "React", "Bootstrap", "Tailwind CSS"],
       icon: "⚡"
     },
     {
       category: "Frontend Technologies",
-      technologies: ["HTML5", "CSS3", "Responsive Design", "SASS", "Material-UI"],
+      technologies: ["HTML5", "CSS3"],
       icon: "🎨"
     },
     {
       category: "Database Technologies",
-      technologies: ["MySQL", "SQLite", "MongoDB", "Firebase", "PostgreSQL"],
+      technologies: ["MySQL", "MongoDB", "PostgreSQL"],
       icon: "🗄️"
     },
     {
       category: "DevOps & Tools",
-      technologies: ["Git", "Docker", "AWS", "Linux", "CI/CD", "Kubernetes"],
+      technologies: ["Git", "Docker", "AWS", "Linux"],
       icon: "👑 "
     },
     {
       category: "Soft Skills",
-      technologies: ["Project Management", "Team Leadership", "Problem Solving", "Testing", "Agile"],
+      technologies: ["Project Management", "Team Leadership", "Problem Solving"],
       icon: "🚀"
     }
   ],
@@ -98,7 +99,7 @@ export const portfolioData = {  // Personal Information
     {
       title: "Indian Sign Language Detection",
       description: "A real-time sign language detection system using MediaPipe, TensorFlow, and Flask. It features webcam-based hand tracking, gesture recognition, live predictions, audio output, and a user-friendly web interface.",
-      image: "https://via.placeholder.com/400x250/2c3e50/ffffff?text=Sign+Language+AI",
+      image: "/Portfolio/src/data/sign.jpg",
       technologies: ["MediaPipe", "TensorFlow", "Flask", "OpenCV", "HTML/CSS", "pyttsx3"],
       // liveLink: "",
       githubLink: "https://github.com/TejasNachane/ISL-Recognized",
@@ -107,7 +108,7 @@ export const portfolioData = {  // Personal Information
     {
       title: "Student Management System",
       description: "A web-based student management system built with PHP and MySQL. It allows administrators to manage student records, track attendance, and generate academic reports through a secure dashboard.",
-      image: "https://via.placeholder.com/400x250/1abc9c/ffffff?text=Student+Manager",
+      image: "/Portfolio/src/data/college.jpg",
       technologies: ["PHP", "MySQL", "HTML", "CSS", "Bootstrap"],
       // liveLink: "",
       githubLink: "https://github.com/TejasNachane/student-management-system",
@@ -116,7 +117,7 @@ export const portfolioData = {  // Personal Information
     {
       title: "Expenses & Lending Tracker",
       description: "A comprehensive Flask web application for personal financial management that helps you track expenses, manage lending/borrowing, and analyze spending patterns with interactive visualizations.",
-      image: "https://via.placeholder.com/400x250/f093fb/ffffff?text=Weather+App",
+      image: "/Portfolio/src/data/expence.png",
       technologies: ["Html", "Python", "Pandas", "Flask", "CSS3"],
       // liveLink: "",
       githubLink: "https://github.com/TejasNachane/Expense-Lending-Tracker",
@@ -125,7 +126,7 @@ export const portfolioData = {  // Personal Information
     {
       title: "Hospital Management System",
       description: "A comprehensive hospital management system built with Spring Boot and MySQL. Features include patient registration, appointment scheduling, doctor management, medical records, billing system, and inventory management with role-based access control.",
-      image: "https://via.placeholder.com/400x250/27ae60/ffffff?text=Hospital+System",
+      image: "/Portfolio/src/data/hospital.png",
       technologies: ["Java", "Spring Boot", "MySQL", "Spring Security", "Thymeleaf", "Bootstrap"],
       // liveLink: "",
       githubLink: "https://github.com/TejasNachane/hospital-management-system",

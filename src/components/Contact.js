@@ -49,6 +49,11 @@ const Contact = () => {
                 Website
               </a>
             )}
+            {contact.leetcode && (
+              <a href={contact.leetcode} target="_blank" rel="noopener noreferrer" className="social-link">
+                LeetCode
+              </a>
+            )}
           </div>
         </div>
       </div>
