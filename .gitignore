@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+
+# Production build
+dist/
+build/
+
+
+# Vite
+.vite/
+
+# IDE and Editor files
+.vscode/
