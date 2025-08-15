@@ -2,7 +2,8 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { portfolioData } from '../../data/portfolioData'
-import { Mail, Phone, MapPin, Github, Linkedin, MessageCircle, Zap, Code } from 'lucide-react'
+import { Mail, Phone, MapPin, Github, Linkedin, MessageCircle, Zap, Download } from 'lucide-react'
+import LeetCodeIcon from '../ui/LeetCodeIcon'
 
 const Contact = () => {
   const { contact } = portfolioData
@@ -78,10 +79,16 @@ const Contact = () => {
       color: 'hover:text-cyberpunk-neon-blue'
     },
     {
-      icon: Code,
+      icon: LeetCodeIcon,
       label: 'LeetCode',
       href: contact.leetcode,
-      color: 'hover:text-cyberpunk-neon-green'
+      color: 'hover:text-cyberpunk-neon-orange'
+    },
+    {
+      icon: Download,
+      label: 'Resume',
+      href: contact.resume,
+      color: 'hover:text-cyberpunk-neon-yellow'
     },
     {
       icon: Mail,

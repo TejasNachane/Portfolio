@@ -18,7 +18,8 @@ export const portfolioData = {  // Personal Information
     linkedin: "https://www.linkedin.com/in/tejasnachane/",
     github: "https://github.com/TejasNachane/TejasNachane",
     website: "https://tejasnachane.dev",
-    leetcode: "https://leetcode.com/u/Golumaster/"
+    leetcode: "https://leetcode.com/u/Golumaster/",
+    resume: "https://docs.google.com/document/d/11XY56oaHT7N3KO5rDZJ3fAC3WzBkN7CrIODnjQXU2n0/edit?usp=sharing"
   },
 
   // Education

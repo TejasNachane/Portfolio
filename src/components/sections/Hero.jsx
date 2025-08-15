@@ -1,8 +1,9 @@
 import React, { Suspense, lazy } from 'react'
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Mail, ExternalLink } from 'lucide-react'
+import { Github, Linkedin, Download } from 'lucide-react'
 import { portfolioData } from '../../data/portfolioData'
 import ProfileImage from '../ui/ProfileImage'
+import LeetCodeIcon from '../ui/LeetCodeIcon'
 
 // Lazy load 3D components
 const FloatingCube = lazy(() => import('../3d/FloatingCube'))
@@ -14,7 +15,7 @@ const Hero = () => {
   const socialLinks = [
     { icon: Github, url: contact.github, label: 'GitHub', color: 'hover:text-cyberpunk-neon-purple' },
     { icon: Linkedin, url: contact.linkedin, label: 'LinkedIn', color: 'hover:text-cyberpunk-neon-blue' },
-    { icon: Mail, url: `mailto:${contact.email}`, label: 'Email', color: 'hover:text-cyberpunk-neon-pink' },
+    { icon: LeetCodeIcon, url: contact.leetcode, label: 'LeetCode', color: 'hover:text-cyberpunk-neon-orange' },
   ]
 
   return (
@@ -105,25 +106,17 @@ const Hero = () => {
                 transition={{ delay: 1, duration: 0.6 }}
                 className="flex flex-wrap gap-4"
               >
-                <button 
-                  onClick={() => document.querySelector('#projects')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="cyberpunk-button group"
+                <a
+                  href={contact?.resume || "#"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 border-2 border-cyberpunk-neon-green text-cyberpunk-neon-green hover:bg-cyberpunk-neon-green hover:text-cyberpunk-dark-bg transition-all duration-300 font-bold uppercase tracking-wider group"
                 >
                   <span className="flex items-center space-x-2">
-                    <ExternalLink className="w-5 h-5" />
-                    <span>View Projects</span>
+                    <Download className="w-5 h-5 group-hover:animate-bounce" />
+                    <span>Download Resume</span>
                   </span>
-                </button>
-                
-                <button 
-                  onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="px-6 py-3 border-2 border-cyberpunk-neon-blue text-cyberpunk-neon-blue hover:bg-cyberpunk-neon-blue hover:text-cyberpunk-dark-bg transition-all duration-300 font-bold uppercase tracking-wider group"
-                >
-                  <span className="flex items-center space-x-2">
-                    <Mail className="w-5 h-5" />
-                    <span>Contact Me</span>
-                  </span>
-                </button>
+                </a>
               </motion.div>
 
               {/* Social Links */}
@@ -205,7 +198,7 @@ const Hero = () => {
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className="w-6 h-10 border-2 border-cyberpunk-neon-blue rounded-full flex justify-center"
+          className="w-6 h-10 border-2 border-cyberpunk-neon-blue rounded-full lex justify-center"
         >
           <motion.div
             animate={{ y: [0, 12, 0], opacity: [0, 1, 0] }}

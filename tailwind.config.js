@@ -44,6 +44,7 @@ export default {
           'neon-purple': '#8b5cf6',
           'neon-blue': '#00d4ff',
           'neon-green': '#00ff88',
+          'neon-orange': '#ff6b35',
           'dark-bg': '#0a0a0f',
           'darker-bg': '#05050a',
           'card-bg': '#1a1a2e',
