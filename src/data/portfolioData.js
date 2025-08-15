@@ -7,7 +7,7 @@ export const portfolioData = {  // Personal Information
       "⚔️ My tech stack arsenal includes React, Node.js, Python, and cutting-edge web technologies. I'm always grinding to learn new skills and take on boss-level projects that push the boundaries of what's possible.",
       "🏆 When I'm not coding, you'll find me exploring indie games, speedrunning through tech tutorials, or building side projects that solve real-world quests. Ready to team up and create something legendary?"
     ],
-    profileImage: "/images/profile_img.png"  
+    profileImage: "/Portfolio/images/profile_img.png"  
   },
 
   // Contact Information
@@ -98,7 +98,7 @@ export const portfolioData = {  // Personal Information
   {
     title: "Indian Sign Language Detection",
     description: "A real-time sign language detection system using MediaPipe, TensorFlow, and Flask. It features webcam-based hand tracking, gesture recognition, live predictions, audio output, and a user-friendly web interface. This was my final year college project.",
-    image: "/images/sign.jpg",
+    image: "/Portfolio/images/sign.jpg",
     technologies: ["MediaPipe", "TensorFlow", "Flask", "OpenCV", "HTML/CSS", "pyttsx3"],
     githubLink: "https://github.com/TejasNachane/ISL-Recognized",
     featured: true
@@ -106,7 +106,7 @@ export const portfolioData = {  // Personal Information
   {
     title: "Student Management System",
     description: "A web-based student management system built with PHP and MySQL. It allows administrators to manage student records, track attendance, and generate academic reports through a secure dashboard. This was my final year polytechnic project.",
-    image: "/images/college.jpg",
+    image: "/Portfolio/images/college.jpg",
     technologies: ["PHP", "MySQL", "HTML", "CSS", "Bootstrap"],
     githubLink: "https://github.com/TejasNachane/student-management-system",
     featured: true
@@ -114,7 +114,7 @@ export const portfolioData = {  // Personal Information
   {
     title: "Expenses & Lending Tracker",
     description: "A comprehensive Flask web application for personal financial management that helps you track expenses, manage lending/borrowing, and analyze spending patterns with interactive visualizations.",
-    image: "/images/expence.png",
+    image: "/Portfolio/images/expence.png",
     technologies: ["Html", "Python", "Pandas", "Flask", "CSS3"],
     githubLink: "https://github.com/TejasNachane/Expense-Lending-Tracker",
     featured: true
@@ -122,7 +122,7 @@ export const portfolioData = {  // Personal Information
   {
     title: "Hospital Management System",
     description: "A comprehensive hospital management system built with Spring Boot and MySQL. Features include patient registration, appointment scheduling, doctor management, medical records, billing system, and inventory management with role-based access control.",
-    image: "/images/hospital.png",
+    image: "/Portfolio/images/hospital.png",
     technologies: ["Java", "Spring Boot", "MySQL", "Spring Security", "Thymeleaf", "Bootstrap"],
     githubLink: "https://github.com/TejasNachane/hospital-management-system",
     featured: true
