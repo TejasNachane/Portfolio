@@ -4,7 +4,7 @@
 
 ![Portfolio Preview](https://img.shields.io/badge/Portfolio-Live-brightgreen) ![React](https://img.shields.io/badge/React-18-blue) ![Three.js](https://img.shields.io/badge/Three.js-3D-orange) ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-blue)
 
-**🌐 Live Demo:** [https://tejasnachane.github.io/Portfolio/](Live -Portfolio)  
+**🌐 Live Demo:** [https://tejasnachane.github.io/Portfolio/] (Live -Portfolio)  
 
 
 ---
