@@ -1,0 +1,88 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Metallic gradient fill -->
+    <linearGradient id="metallicGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e5e7eb;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#f9fafb;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#d1d5db;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#9ca3af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6b7280;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glossy shine overlay -->
+    <linearGradient id="glossyShine" x1="0%" y1="0%" x2="60%" y2="60%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.8" />
+      <stop offset="30%" style="stop-color:#ffffff;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    
+    <!-- Neon glow gradient (orange to red) -->
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff4500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Aura glow filter -->
+    <filter id="auraGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Drop shadow -->
+    <filter id="dropShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1"/>
+      <feOffset dx="1" dy="1" result="offset"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge> 
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Outer aura glow -->
+  <path d="M4 4 L4 22 L11 15 L16 15 L19 20 L22 17 L17 12 L17 4 Z" 
+        fill="url(#neonGlow)" 
+        opacity="0.3" 
+        filter="url(#auraGlow)"/>
+  
+  <!-- Main cursor body with thick outline -->
+  <path d="M5 5 L5 21 L10.5 15.5 L15 15.5 L18 19.5 L20.5 17 L16 13 L16 5 Z" 
+        fill="none" 
+        stroke="url(#neonGlow)" 
+        stroke-width="2" 
+        stroke-linejoin="round" 
+        stroke-linecap="round"/>
+  
+  <!-- Main cursor fill -->
+  <path d="M6 6 L6 20 L10 16 L14.5 16 L17 18.5 L19.5 16.5 L15.5 12.5 L15.5 6 Z" 
+        fill="url(#metallicGradient)" 
+        filter="url(#dropShadow)"/>
+  
+  <!-- Glossy shine overlay -->
+  <path d="M6 6 L6 14 L9 11 L12 11 L12 6 Z" 
+        fill="url(#glossyShine)"/>
+  
+  <!-- Inner highlight line -->
+  <path d="M7 7 L7 18 L9.5 15.5 L13 15.5 L15.5 17.5 L17.5 15.8 L14.5 13 L14.5 7 Z" 
+        fill="none" 
+        stroke="#ffffff" 
+        stroke-width="0.5" 
+        stroke-opacity="0.6" 
+        stroke-linejoin="round"/>
+  
+  <!-- Neon edge highlights -->
+  <path d="M5 5 L16 5 L16 13 L20.5 17 L18 19.5 L15 15.5 L10.5 15.5 L5 21 Z" 
+        fill="none" 
+        stroke="url(#neonGlow)" 
+        stroke-width="0.8" 
+        stroke-opacity="0.8" 
+        stroke-linejoin="round" 
+        stroke-linecap="round"/>
+</svg>
