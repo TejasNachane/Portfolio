@@ -3,9 +3,9 @@ export const portfolioData = {  // Personal Information
     name: "Tejas Nachane",
     title: "Developer & Game Enthusiast",
     subtitle: "Level up your digital experience with cutting-edge web solutions",    bio: [
-      "🎮 I'm a passionate Full Stack Developer with 3+ years of experience crafting epic web applications. Like a skilled gamer, I love conquering complex coding challenges and turning them into elegant digital solutions.",
-      "⚔️ My tech stack arsenal includes React, Node.js, Python, and cutting-edge web technologies. I'm always grinding to learn new skills and take on boss-level projects that push the boundaries of what's possible.",
-      "🏆 When I'm not coding, you'll find me exploring indie games, speedrunning through tech tutorials, or building side projects that solve real-world quests. Ready to team up and create something legendary?"
+      "🎮 I'm a passionate Computer Science student currently pursuing my BE in Information Technology, with a gaming mindset towards conquering coding challenges. Like leveling up in my favorite games, I'm constantly learning and building projects that solve real-world problems.",
+      "⚔️ My tech arsenal includes Python, Java, PHP, Flask, Spring Boot, and web technologies. Through internships in Data Science and Web Development, I've gained hands-on experience and I'm always grinding to master new skills and frameworks.",
+      "🏆 From creating an Indian Sign Language Detection system to building management systems, I love turning ideas into functional applications. When I'm not coding, you'll find me exploring new technologies, working on side projects, or planning my next coding adventure. Ready to level up together?"
     ],
     profileImage: "/Portfolio/images/profile_img.png"  
   },
